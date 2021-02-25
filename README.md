@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-bigquery-datatransfer
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-bigquery-datatransfer-feedstock/blob/master/LICENSE.txt)
 
 Summary: BigQuery Data Transfer API client library
+
+Development: https://github.com/googleapis/python-bigquery-datatransfer
+
+Documentation: https://googleapis.dev/python/bigquerydatatransfer/latest/index.html
 
 BigQuery Data Transfer API is a Google Cloud service that lets client applications transfer data from partner SaaS applications to Google BigQuery on a scheduled, managed basis.
 See the [quick start guide](https://googleapis.dev/python/bigquerydatatransfer/latest/index.html#quick-start).
@@ -118,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@parthea](https://github.com/parthea/)
+* [@xylar](https://github.com/xylar/)
 

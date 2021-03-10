@@ -1,5 +1,5 @@
 {% set name = "google-cloud-bigquery-datatransfer" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f248e3a8844d9b17bb76c3487e47573f09c477691b91482b67b8662df4c6ba42
+  sha256: c5669410018eb41cecf6f9c90136d24d0ca9ed141bda8fbb3d52cd3de7162960
 
 build:
   number: 0
@@ -37,11 +37,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'BigQuery Data Transfer API client library'
-  description: BigQuery Data Transfer API is a Google Cloud service that lets client applications transfer data
-    from partner SaaS applications to Google BigQuery on a scheduled, managed basis.
-
-    See the [quick start guide](https://googleapis.dev/python/bigquerydatatransfer/latest/index.html#quick-start).
+  summary: BigQuery Data Transfer API client library
+  description: "BigQuery Data Transfer API is a Google Cloud service that lets client applications transfer data from partner SaaS applications to Google BigQuery on a scheduled, managed basis.\nSee the [quick start guide](https://googleapis.dev/python/bigquerydatatransfer/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/bigquerydatatransfer/latest/index.html
   dev_url: https://github.com/googleapis/python-bigquery-datatransfer

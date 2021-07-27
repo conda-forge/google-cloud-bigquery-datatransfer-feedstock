@@ -1,5 +1,5 @@
 {% set name = "google-cloud-bigquery-datatransfer" %}
-{% set version = "3.3.0" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e1e1153d412ee07e171b51f1696fb7d27cb282c2494b40ac6f3c46a2fb97e724
+  sha256: a0292db7cc0060a7b0cfa19ae26206572d085a89d74ea42f68ee4c4f83241cc6
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.26.0,<2.0.0dev
+    - google-api-core-grpc >=1.26.0,<3.0.0dev
     - packaging >=14.3
     - proto-plus >=1.15.0
 

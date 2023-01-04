@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-bigquery-datatransfer-feedstock/blob/main/LICENSE.txt)
 
-Summary: BigQuery Data Transfer API client library
+Summary: Google Cloud Bigquery Datatransfer API client library
 
 Development: https://github.com/googleapis/python-bigquery-datatransfer
 

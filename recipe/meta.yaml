@@ -1,5 +1,5 @@
 {% set name = "google-cloud-bigquery-datatransfer" %}
-{% set version = "3.9.0" %}
+{% set version = "3.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-bigquery-datatransfer-{{ version }}.tar.gz
-  sha256: 007e97ab98cc228d5aac641ace83d68169ca79f11abc79dab3a148cbe2c534ff
+  sha256: 47a0882f5080dd447cd6451e22514625ac4318edf718128ecd3e10a362d69509
 
 build:
   noarch: python

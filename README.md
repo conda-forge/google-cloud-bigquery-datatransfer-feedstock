@@ -1,11 +1,11 @@
-About google-cloud-bigquery-datatransfer
-========================================
+About google-cloud-bigquery-datatransfer-feedstock
+==================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-bigquery-datatransfer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-bigquery-datatransfer
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-bigquery-datatransfer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Bigquery Datatransfer API client library
 

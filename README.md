@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Bigquery Datatransfer API client library
 
-Development: https://github.com/googleapis/python-bigquery-datatransfer
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-bigquery-datatransfer
 
 Documentation: https://googleapis.dev/python/bigquerydatatransfer/latest/index.html
 

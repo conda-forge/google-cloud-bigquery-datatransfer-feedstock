@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-bigquery-datatransfer
-  version: 3.20.0
+  version: "3.21.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_bigquery_datatransfer-${{ version }}.tar.gz
-  sha256: 4b81823920892ab11d70aa264adf26412840294802018da35c897bea680484f8
+  sha256: cd581904049ff3422fe113c715af4ecbb13cfbf52a53e97add41fa9e5ebe4870
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
